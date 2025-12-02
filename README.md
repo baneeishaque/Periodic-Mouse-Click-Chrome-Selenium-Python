@@ -253,7 +253,7 @@ $env:DEFAULT_ITERATIONS="10"
 
 ### Customizing Reload Interval
 
-The default reload interval is 15 minutes (900 seconds). To customize this, modify line 93 in `main.py`:
+The default reload interval is 15 minutes (900 seconds). To customize this, modify the `time.sleep()` call in the periodic reload loop in `main.py`:
 
 ```python
 # Original (15 minutes)
